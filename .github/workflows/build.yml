@@ -43,4 +43,5 @@ jobs:
         with:
           name: Build-Output
           path: |
-            build/dist/AutoProxyReload-1.0.exe
+            *.exe
+            **/*.exe
